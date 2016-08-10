@@ -96,7 +96,7 @@ project('solr-hadoop-core') {
       transitive = false
     }
 
-    compile files('libs/jruby-complete-1.7.11.jar')
+    compile files('libs/jruby-complete-1.7.20.jar')
     compile files('libs/logStash-grok.jar')
 
     testCompile 'com.carrotsearch.randomizedtesting:junit4-ant:1.4.0'
